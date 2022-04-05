@@ -1,0 +1,13 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, world!</h1>
+
+<Dialog @ref=@dialog class="shadow-sm rounded border border-1">
+    <button class="btn btn-close" @onclick=@CloseDialog />
+    <h1>Hello, world!</h1>
+</Dialog>
+
+<button class="btn btn-primary" @onclick=@OpenDialog>Open</button>
+
